@@ -1,0 +1,25 @@
+DON'T FORGET TO PUT RELEASE ID IN COLUMN 1!
+
+D:
+
+D:\>CD DAPI
+
+discogs_extract.pl -h
+
+discogs_extract.pl - grab data via API, etc
+
+discogs_extract.pl [-h] [-k API_key] [-s file] release_list_file
+
+  -h = help
+  -k = API key
+  -s = styles flat file
+  -m = max number of rows to process from input file (for testing)
+       default = 5,000
+
+So, for example, to run the same test I did, unzip the attachment in your working directory, and run this command:
+
+perl discogs_extract.pl  -m 10  davey_test.csv > test_output.csv
+
+c5f7e6ba64
+
+2f350a82a5

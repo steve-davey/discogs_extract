@@ -1,0 +1,8 @@
+my $aref = $self->{styles}{style}; 
+ 
+if (!defined $aref) { 
+    return ();  #or undef, or "", or whatever else you want 
+} 
+else 
+    return  @$aref; 
+}

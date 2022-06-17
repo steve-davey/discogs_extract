@@ -1,0 +1,51 @@
+{
+   "abstract" : "get music related information and images",
+   "author" : [
+      "Michal Gasek <michal@gasek.eu>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "WWW-Discogs",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::Slurp" : "0",
+            "HTTP::Response" : "0",
+            "Test::Deep" : "0",
+            "Test::Exception" : "0",
+            "Test::Mock::LWP::Dispatch" : "0.03",
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "JSON::XS" : "0",
+            "LWP::UserAgent" : "0",
+            "NEXT" : "0",
+            "URI" : "0",
+            "URI::Escape" : "0",
+            "perl" : "5.008"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.14-devel"
+}
